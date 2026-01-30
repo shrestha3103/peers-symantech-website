@@ -10,7 +10,7 @@ export default function About() {
           We have worked in various verticals in Software Development. However, the specialization that put us stand apart is Medical Informatics. We have number of software developed in this Vertical. Software, we have developed in this field has helped Medical and allied professionals access and utilize various advanced techniques in Medical Informatics like Electronic Medical Record (EMR) and Clinical Decision Support System(CDSS)
         </div>
         <div>
-          We have received award from:
+          We have received award from: 
         </div>
         <div>
           We are incubated in Nexus, US Embassy, New Delhi.
