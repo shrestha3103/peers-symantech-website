@@ -17,7 +17,7 @@ export default function Header() {
         </Link>
 
         <ul className="hidden md:flex gap-6 text-md font-semibold">
-          {["home","about","services","clientele","contact"].map(item => (
+          {["home","about","products","services","clientele","contact"].map(item => (
             <li key={item}>
               <button
                 onClick={() => scrollToSection(item, navigate)}
@@ -29,12 +29,12 @@ export default function Header() {
           ))}
 
           <li>
-            <Link
+            {/* <Link
               to="/products"
               className="hover:text-(--maroon) active:underline hover:underline"
             >
               PRODUCTS
-            </Link>
+            </Link> */}
           </li>
         </ul>
       </nav>
