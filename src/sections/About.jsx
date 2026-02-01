@@ -10,23 +10,23 @@ export default function About() {
   return (
     <section id="about" className="py-27 bg-(--offwhite)">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-2xl font-semibold text-(--maroon) mb-25">About Us</h2>
-        <div className="flex flex-col gap-20 text-(--maroon)">
+        <h2 className="text-3xl font-semibold text-(--maroon) mb-18">About Us</h2>
+        <div className="flex flex-col gap-15 text-(--maroon)">
 
-          <div className="">
+          <div className="text-lg">
             Peers Symantech is a multi-disciplinary, Technology driven and customer focused organization into the business of Software/App development and IT Enabled Services with leading edge engineering solution.
           </div>
-          <div>
+          <div className="text-lg">
             We have worked in various verticals in Software Development. However, the specialization that put us stand apart is Medical Informatics. We have number of software developed in this Vertical. Software, we have developed in this field has helped Medical and allied professionals access and utilize various advanced techniques in Medical Informatics like Electronic Medical Record (EMR) and Clinical Decision Support System(CDSS).
           </div>
-          <div>
+          <div className="text-lg">
             We have received award from:
             <div className="flex">
               <img src={texasglobal} alt="" className="w-55 h-15 m-5" />
               <img src={universityoftexas} alt="" className="w-15 h-15 m-5" />
             </div>
           </div>
-          <div>
+          <div className="text-lg">
             We are incubated in Nexus, US Embassy, New Delhi.
             <div className="flex">
               <img src={ACIR} alt="" className="w-12 h-15 m-5" />

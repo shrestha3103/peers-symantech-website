@@ -25,7 +25,7 @@ export default function Clientele() {
   return (
     <section id="clientele" className="py-27 bg-(--offwhite)">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-2xl font-semibold text-(--maroon) mb-4">Our Clients</h2>
+        <h2 className="text-3xl font-semibold text-(--maroon) mb-4">Our Clients</h2>
         <div className="flex flex-wrap gap-5">
           <img src={R} alt="" className="h-15 w-14 my-5" />
           <img src={ntpcimages} alt="" className="h-15 w-22 my-5" />
