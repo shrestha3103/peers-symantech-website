@@ -118,9 +118,9 @@ export default function ProductsPreview() {
           <Link
             to="/products"
             className="inline-flex items-center gap-2 px-9 py-3
-                       bg-(--maroon) text-white rounded-lg font-medium
-                       hover:bg-(--maroon)/90 hover:scale-[1.03]
-                       transition-all duration-300 shadow-md"
+                      bg-(--maroon) text-white rounded-lg font-medium
+                      hover:bg-(--maroon)/90 hover:scale-[1.03]
+                      transition-all duration-300 shadow-md"
           >
             View All Products
             <span className="text-lg">→</span>
