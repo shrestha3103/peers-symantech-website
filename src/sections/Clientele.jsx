@@ -73,7 +73,8 @@ export default function Clientele() {
                           opacity-0 group-hover:opacity-100
                           scale-95 group-hover:scale-100
                           transition-all duration-300
-                          bg-(--maroon) text-white text-xs px-3 py-1 rounded-md my-2 whitespace-nowrap shadow-md"
+                          bg-(--maroon) text-white text-xs px-3 py-1
+                          rounded-md my-2 whitespace-nowrap shadow-md"
               >
                 {client.name}
               </div>
