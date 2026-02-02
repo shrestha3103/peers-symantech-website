@@ -213,8 +213,16 @@ export default function Products() {
               {vertical.products.map((product, index) => (
                 <div
                   key={index}
-                  className="border rounded-xl p-6 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-[fadeIn_0.6s_ease-in-out]"
+                  className="group border border-(--maroon)/50 rounded-xl p-6 bg-white
+             relative overflow-hidden cursor-pointer
+             transition-all duration-300
+             hover:-translate-y-2 hover:shadow-xl
+             animate-[fadeIn_0.6s_ease-in-out]"
                 >
+                  <span
+                    className="absolute top-0 left-0 h-1 w-0 bg-(--maroon)
+               group-hover:w-full transition-all duration-300"
+                  />
                   <h3 className="font-semibold mb-2">
                     {product.name}
                   </h3>

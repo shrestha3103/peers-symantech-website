@@ -1,4 +1,9 @@
+import { motion } from "framer-motion";
+
 import GradientCircle from "../components/GradientCircle";
+import AnimatedHeading from "../components/AnimatedHeading";
+import TypewriterText from "../components/TypewriterText";
+import FloatingCircle from "../components/FloatingCircle";
 
 export default function Home() {
     return (
@@ -11,9 +16,11 @@ export default function Home() {
             <GradientCircle size="400px" position="top-42 right-24" />
 
             <div className="text-center max-w-5xl px-6 z-10">
-                <h1 className="text-4xl md:text-4xl text-(--maroon) font-semibold mb-6 text-shadow-lg">
+                {/* <h1 className="text-4xl md:text-4xl text-(--maroon) font-semibold mb-6 text-shadow-lg">
                     Intelligent Solution in Medical Informatics, Security & Access Control, Business Automation
-                </h1>
+                </h1> */}
+                <AnimatedHeading text="Intelligent Solution in Medical Informatics, Security & Access Control, Business Automation" />
+
             </div>
         </section>
     );

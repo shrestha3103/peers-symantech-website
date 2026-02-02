@@ -45,7 +45,7 @@ const clients = [
 export default function Clientele() {
   return (
     <section id="clientele" className="py-24 bg-(--offwhite)">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-semibold text-(--maroon) mb-10">
           Our Clients
         </h2>

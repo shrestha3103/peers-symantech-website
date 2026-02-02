@@ -8,6 +8,7 @@ import ProductsPreview from "./sections/ProductsPreview";
 import Services from "./sections/Services";
 import Clientele from "./sections/Clientele";
 import Contact from "./sections/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Products from "./pages/Products";
 
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"

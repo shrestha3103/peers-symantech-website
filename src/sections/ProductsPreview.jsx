@@ -14,17 +14,25 @@ export default function ProductsPreview() {
             Products
           </h2>
 
-          <div className="text-lg text-(--maroon) max-w-3xl">
-            Explore our range of enterprise-grade software solutions across healthcare, security, and academic ecosystems — engineered for scalability, compliance, and long-term performance.
-          </div>
+          <p className="text-lg text-(--maroon) max-w-3xl">
+            Explore our range of enterprise-grade software solutions across healthcare,
+            security, and academic ecosystems — engineered for scalability, compliance,
+            and long-term performance.
+          </p>
         </div>
 
-        {/* Middle Section – Product Verticals */}
+        {/* Product Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
 
           {/* Medical Informatics */}
-          <div className="bg-white border border-(--maroon)/20 rounded-xl p-8
-                          hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+          <div className="group bg-white border border-(--maroon)/20 rounded-xl p-8
+                          hover:-translate-y-2 hover:shadow-xl
+                          transition-all duration-300
+                          cursor-pointer relative overflow-hidden">
+
+            <span className="absolute top-0 left-0 h-1 w-0 bg-(--maroon)
+                             group-hover:w-full transition-all duration-300" />
+
             <h3 className="text-xl font-semibold text-(--maroon) mb-4">
               Medical Informatics
             </h3>
@@ -37,15 +45,22 @@ export default function ProductsPreview() {
             </ul>
 
             <p className="mt-5 text-md text-(--maroon)/70">
-              Intelligent digital healthcare platforms built for hospitals, clinics, and medical education.
+              Intelligent digital healthcare platforms built for hospitals, clinics,
+              and medical education.
             </p>
           </div>
 
           {/* Access Control & Attendance */}
-          <div className="bg-white border border-(--maroon)/20 rounded-xl p-8
-                          hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+          <div className="group bg-white border border-(--maroon)/20 rounded-xl p-8
+                          hover:-translate-y-2 hover:shadow-xl
+                          transition-all duration-300
+                          cursor-pointer relative overflow-hidden">
+
+            <span className="absolute top-0 left-0 h-1 w-0 bg-(--maroon)
+                             group-hover:w-full transition-all duration-300" />
+
             <h3 className="text-xl font-semibold text-(--maroon) mb-4">
-              Access Control & Attendance Managemnet
+              Access Control & Attendance Management
             </h3>
 
             <ul className="space-y-2 text-lg text-(--maroon)/90">
@@ -54,13 +69,20 @@ export default function ProductsPreview() {
             </ul>
 
             <p className="mt-5 text-md text-(--maroon)/70">
-              Secure identity, access, and attendance management systems for enterprises and institutions.
+              Secure identity, access, and attendance management systems for
+              enterprises and institutions.
             </p>
           </div>
 
           {/* Academy & Conference */}
-          <div className="bg-white border border-(--maroon)/20 rounded-xl p-8
-                          hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+          <div className="group bg-white border border-(--maroon)/20 rounded-xl p-8
+                          hover:-translate-y-2 hover:shadow-xl
+                          transition-all duration-300
+                          cursor-pointer relative overflow-hidden">
+
+            <span className="absolute top-0 left-0 h-1 w-0 bg-(--maroon)
+                             group-hover:w-full transition-all duration-300" />
+
             <h3 className="text-xl font-semibold text-(--maroon) mb-4">
               Academy & Conference Management
             </h3>
@@ -75,6 +97,7 @@ export default function ProductsPreview() {
               management platforms.
             </p>
           </div>
+
         </div>
 
         {/* Highlight Card */}
@@ -84,13 +107,13 @@ export default function ProductsPreview() {
               All of our software solutions are
               <span className="font-semibold"> cloud-enabled</span>,
               <span className="font-semibold"> cross-platform</span>, and
-              architected for the <span className="font-semibold">SaaS model</span>,
+              architected for the <span className="font-semibold"> SaaS model</span>,
               ensuring reliability, security, and seamless scalability.
             </p>
           </div>
         </div>
 
-        {/* Bottom CTA */}
+        {/* CTA */}
         <div className="mt-10">
           <Link
             to="/products"
