@@ -19,34 +19,67 @@ import keltronimages from "../assets/clients/keltronimages.png";
 import lechler from "../assets/clients/lechler.png";
 import sbiimages from "../assets/clients/sbiimages.jpg";
 
-
+const clients = [
+  { img: R, name: "Indian Oil Corporation" },
+  { img: ntpcimages, name: "NTPC Limited" },
+  { img: bhelimages, name: "BHEL" },
+  { img: grse, name: "GRSE" },
+  { img: vecc, name: "VECC" },
+  { img: iitkgp, name: "IIT Kharagpur" },
+  { img: ti, name: "Techno India group" },
+  { img: webel, name: "Webel" },
+  { img: bcci, name: "Bengal Chamber of Commerce & Industry" },
+  { img: NASSCOM, name: "NASSCOM" },
+  { img: BESU, name: "Bengal Engineering and Science Institute (IIEST Shibpur)" },
+  { img: birlahigh2, name: "Birla High School" },
+  { img: cmcimages, name: "CMC Limited (TATA Enterprise)" },
+  { img: dae, name: "Department of Atomic Energy" },
+  { img: etntlogo, name: "T&T Group" },
+  { img: exide, name: "Exide Industries" },
+  { img: IEEE, name: "IEEE" },
+  { img: keltronimages, name: "Keltron" },
+  { img: lechler, name: "Lechler" },
+  { img: sbiimages, name: "State Bank of India" },
+];
 
 export default function Clientele() {
   return (
-    <section id="clientele" className="py-27 bg-(--offwhite)">
-      <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-semibold text-(--maroon) mb-4">Our Clients</h2>
-        <div className="flex flex-wrap gap-5">
-          <img src={R} alt="" className="h-15 w-14 my-5" />
-          <img src={ntpcimages} alt="" className="h-15 w-22 my-5" />
-          <img src={bhelimages} alt="" className="h-15 w-22 my-5" />
-          <img src={grse} alt="" className="h-15 w-18 my-5" />
-          <img src={vecc} alt="" className="h-15 w-28 my-5" />
-          <img src={iitkgp} alt="" className="h-15 w-15 my-5" />
-          <img src={ti} alt="" className="h-15 w-15 my-5" />
-          <img src={webel} alt="" className="h-15 w-25 my-5" />
-          <img src={bcci} alt="" className="h-15 w-25 my-5" />
-          <img src={NASSCOM} alt="" className="h-15 w-35 my-5" />
-          <img src={BESU} alt="" className="h-15 w-15 my-5" />
-          <img src={birlahigh2} alt="" className="h-15 w-33 my-5" />
-          <img src={cmcimages} alt="" className="h-15 w-25 my-5" />
-          <img src={dae} alt="" className="h-15 w-18 my-5" />
-          <img src={etntlogo} alt="" className="h-15 w-15 my-5" />
-          <img src={exide} alt="" className="h-15 w-28 my-5" />
-          <img src={IEEE} alt="" className="h-15 w-25 my-5" />
-          <img src={keltronimages} alt="" className="h-15 w-35 my-5" />
-          <img src={lechler} alt="" className="h-15 w-25 my-5" />
-          <img src={sbiimages} alt="" className="h-15 w-45 my-5" />
+    <section id="clientele" className="py-24 bg-(--offwhite)">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-3xl font-semibold text-(--maroon) mb-10">
+          Our Clients
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+          {clients.map((client, index) => (
+            <div
+              key={index}
+              className="group relative flex items-center justify-center
+                         bg-white rounded-xl p-5
+                         shadow-sm hover:shadow-lg
+                         transition-all duration-300 ease-out
+                         hover:-translate-y-1"
+            >
+              <img
+                src={client.img}
+                alt={client.name}
+                className="max-h-14 group-hover:grayscale-0
+                           transition duration-300"
+              />
+
+              {/* Tooltip */}
+              <div
+                className="absolute -bottom-9 left-1/2 -translate-x-1/2
+                           opacity-0 group-hover:opacity-100
+                           scale-95 group-hover:scale-100
+                           transition-all duration-300
+                           bg-(--maroon) text-white text-xs px-3 py-1 rounded-md my-2
+                           whitespace-nowrap shadow-md"
+              >
+                {client.name}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

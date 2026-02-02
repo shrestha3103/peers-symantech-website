@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebookF, FaLinkedinIn, FaWh
 export default function Contact() {
   return (
     <section id="contact" className="py-27 bg-(--offwhite)">
-      <div className="max-w-7xl min-h-screen mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
         <h2 className="text-3xl font-semibold text-(--maroon) mb-10">
