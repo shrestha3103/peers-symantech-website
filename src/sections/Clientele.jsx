@@ -20,13 +20,13 @@ import lechler from "../assets/clients/lechler.png";
 import sbiimages from "../assets/clients/sbiimages.jpg";
 
 const clients = [
-  { img: R, name: "Indian Oil Corporation" },
+  { img: R, name: "Indian Oil Corporation Limited" },
   { img: ntpcimages, name: "NTPC Limited" },
-  { img: bhelimages, name: "BHEL" },
-  { img: grse, name: "GRSE" },
-  { img: vecc, name: "VECC" },
+  { img: bhelimages, name: "Bharat Heavy Electricals Limited" },
+  { img: grse, name: "Garden Reach Shipbuilders & Engineers Limited" },
+  { img: vecc, name: "Variable Energy Cyclotron Centre" },
   { img: iitkgp, name: "IIT Kharagpur" },
-  { img: ti, name: "Techno India group" },
+  { img: ti, name: "Techno India Group" },
   { img: webel, name: "Webel" },
   { img: bcci, name: "Bengal Chamber of Commerce & Industry" },
   { img: NASSCOM, name: "NASSCOM" },
@@ -34,7 +34,7 @@ const clients = [
   { img: birlahigh2, name: "Birla High School" },
   { img: cmcimages, name: "CMC Limited (TATA Enterprise)" },
   { img: dae, name: "Department of Atomic Energy" },
-  { img: etntlogo, name: "T&T Group" },
+  { img: etntlogo, name: "ET&T" },
   { img: exide, name: "Exide Industries" },
   { img: IEEE, name: "IEEE" },
   { img: keltronimages, name: "Keltron" },
@@ -44,7 +44,7 @@ const clients = [
 
 export default function Clientele() {
   return (
-    <section id="clientele" className="py-24 bg-(--offwhite)">
+    <section id="clientele" className="py-27 bg-(--offwhite)">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-semibold text-(--maroon) mb-10">
           Our Clients
