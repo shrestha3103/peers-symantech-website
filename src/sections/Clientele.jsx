@@ -55,26 +55,25 @@ export default function Clientele() {
             <div
               key={index}
               className="group relative flex items-center justify-center
-                         bg-white rounded-xl p-5
-                         shadow-sm hover:shadow-lg
-                         transition-all duration-300 ease-out
-                         hover:-translate-y-1"
+                        bg-white rounded-xl p-5
+                        shadow-sm hover:shadow-lg
+                        transition-all duration-300 ease-out
+                        hover:-translate-y-1"
             >
               <img
                 src={client.img}
                 alt={client.name}
                 className="max-h-14 group-hover:grayscale-0
-                           transition duration-300"
+                          transition duration-300"
               />
 
               {/* Tooltip */}
               <div
                 className="absolute -bottom-9 left-1/2 -translate-x-1/2
-                           opacity-0 group-hover:opacity-100
-                           scale-95 group-hover:scale-100
-                           transition-all duration-300
-                           bg-(--maroon) text-white text-xs px-3 py-1 rounded-md my-2
-                           whitespace-nowrap shadow-md"
+                          opacity-0 group-hover:opacity-100
+                          scale-95 group-hover:scale-100
+                          transition-all duration-300
+                          bg-(--maroon) text-white text-xs px-3 py-1 rounded-md my-2 whitespace-nowrap shadow-md"
               >
                 {client.name}
               </div>
