@@ -18,6 +18,16 @@ import IEEE from "../assets/clients/IEEE.png";
 import keltronimages from "../assets/clients/keltronimages.png";
 import lechler from "../assets/clients/lechler.png";
 import sbiimages from "../assets/clients/sbiimages.jpg";
+import MAKAUT from "../assets/clients/MAKAUT.png";
+import NISG from "../assets/clients/NISG.jpg";
+import wbcil from "../assets/clients/wbcil.png";
+import texasglobal from "../assets/associations/texasglobal.jpg";
+import universityoftexas from "../assets/associations/universityoftexas.jpg";
+import ACIR from "../assets/associations/ACIR.png";
+import americaflag from "../assets/associations/americaflag.jpg";
+import americancenter from "../assets/associations/americancenter2.png";
+import nexus from "../assets/associations/nexus.jpg";
+import USA from "../assets/associations/USA.jpg";
 
 const clients = [
   { img: R, name: "Indian Oil Corporation Limited" },
@@ -40,14 +50,24 @@ const clients = [
   { img: keltronimages, name: "Keltron" },
   { img: lechler, name: "Lechler" },
   { img: sbiimages, name: "State Bank of India" },
+  { img: MAKAUT, name: "Maulana Abul Kalam Azad University of Technology" },
+  { img: NISG, name: "National Institute for Smart Government" },
+  { img: wbcil, name: "West Bengal Chemical Industries Limited" },
+  { img:texasglobal, name: "Texas Global" },
+  { img:universityoftexas, name: "The University of Texas" },
+  { img:ACIR, name: "Alliance of Commercialization and Innovation Research" },
+  { img:americaflag, name: "USA" },
+  { img:americancenter, name: "American Center (New Delhi)" },
+  { img:nexus, name: "Nexus" },
+  { img: USA, name: "US Embassy" },
 ];
 
 export default function Clientele() {
   return (
-    <section id="clientele" className="py-27 bg-(--offwhite)">
+    <section id="clientelle" className="py-27 bg-(--offwhite)">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-semibold text-(--maroon) mb-10">
-          Our Clients
+          Clients
         </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
@@ -63,7 +83,7 @@ export default function Clientele() {
               <img
                 src={client.img}
                 alt={client.name}
-                className="max-h-14 group-hover:grayscale-0
+                className="max-h-15
                           transition duration-300"
               />
 

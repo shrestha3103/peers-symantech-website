@@ -17,7 +17,7 @@ export default function Header() {
         </Link>
 
         <ul className="hidden md:flex gap-6 text-md font-semibold">
-          {["home","about","products","services","clientele","contact"].map(item => (
+          {["home","about","products","services","clientelle","contact"].map(item => (
             <li key={item}>
               <button
                 onClick={() => scrollToSection(item, navigate)}

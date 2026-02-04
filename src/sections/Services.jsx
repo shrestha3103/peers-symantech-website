@@ -37,7 +37,7 @@ export default function Services() {
         {/* Header */}
         <div className="mb-14 max-w-2xl">
           <h2 className="text-4xl font-semibold text-(--maroon) mb-4">
-            Our Services
+            Services
           </h2>
           <p className="text-lg text-(--maroon)/80 leading-relaxed">
             We have provided the best IT & ITeS services across multiple domains,
