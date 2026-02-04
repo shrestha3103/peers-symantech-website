@@ -2,8 +2,6 @@ import { motion } from "framer-motion";
 
 import GradientCircle from "../components/GradientCircle";
 import AnimatedHeading from "../components/AnimatedHeading";
-import TypewriterText from "../components/TypewriterText";
-import FloatingCircle from "../components/FloatingCircle";
 
 export default function Home() {
     return (
