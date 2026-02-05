@@ -167,7 +167,7 @@ const ProductModal = ({ product, onClose }) => {
             rel="noreferrer"
             className="inline-block mb-6 text-(--maroon) font-medium mr-5 px-4 py-2 border border-(--maroon) rounded hover:bg-(--maroon) hover:text-white transition"
           >
-            View Live Demo →
+            View Demo →
           </a>
         )}
 
@@ -200,7 +200,7 @@ export default function Products() {
     <section className="min-h-screen pt-28 pb-24 bg-(--offwhite)">
       <div className="max-w-7xl mx-auto px-6">
         <h1 className="text-3xl font-semibold text-(--maroon) mb-14">
-          Our Products
+          Products
         </h1>
 
         {verticals.map((vertical, vIndex) => (
