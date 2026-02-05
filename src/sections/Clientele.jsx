@@ -1,6 +1,6 @@
-import R from "../assets/clients/R.jpg";
-import ntpcimages from "../assets/clients/ntpcimages.png";
-import bhelimages from "../assets/clients/bhelimages.jpg";
+import indianoil from "../assets/clients/R.jpg";
+import ntpc from "../assets/clients/ntpcimages.png";
+import bhel from "../assets/clients/bhelimages.jpg";
 import grse from "../assets/clients/grse.jpg";
 import vecc from "../assets/clients/vecc.jpg";
 import iitkgp from "../assets/clients/iitkgp.png";
@@ -15,7 +15,7 @@ import dae from "../assets/clients/dae.jpg";
 import etntlogo from "../assets/clients/etntlogo.png";
 import exide from "../assets/clients/exide.png";
 import IEEE from "../assets/clients/IEEE.png";
-import keltronimages from "../assets/clients/keltronimages.png";
+import keltron from "../assets/clients/keltronimages.png";
 import lechler from "../assets/clients/lechler.png";
 import sbiimages from "../assets/clients/sbiimages.jpg";
 import MAKAUT from "../assets/clients/MAKAUT.png";
@@ -30,9 +30,9 @@ import nexus from "../assets/associations/nexus.jpg";
 import USA from "../assets/associations/USA.jpg";
 
 const clients = [
-  { img: R, name: "Indian Oil Corporation Limited" },
-  { img: ntpcimages, name: "NTPC Limited" },
-  { img: bhelimages, name: "Bharat Heavy Electricals Limited" },
+  { img: indianoil, name: "Indian Oil Corporation Limited" },
+  { img: ntpc, name: "NTPC Limited" },
+  { img: bhel, name: "Bharat Heavy Electricals Limited" },
   { img: grse, name: "Garden Reach Shipbuilders & Engineers Limited" },
   { img: vecc, name: "Variable Energy Cyclotron Centre" },
   { img: iitkgp, name: "IIT Kharagpur" },
@@ -47,7 +47,7 @@ const clients = [
   { img: etntlogo, name: "ET&T" },
   { img: exide, name: "Exide Industries" },
   { img: IEEE, name: "IEEE" },
-  { img: keltronimages, name: "Keltron" },
+  { img: keltron, name: "Keltron" },
   { img: lechler, name: "Lechler" },
   { img: sbiimages, name: "State Bank of India" },
   { img: MAKAUT, name: "Maulana Abul Kalam Azad University of Technology" },
