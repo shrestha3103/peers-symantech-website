@@ -67,7 +67,7 @@ export default function Clientele() {
     <section id="clientelle" className="py-27 bg-(--offwhite)">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-semibold text-(--maroon) mb-10">
-          Clients
+          Clientelle and Association
         </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
