@@ -47,13 +47,15 @@ export default function Contact() {
             {/* Social Icons */}
             <div className="flex gap-4 pt-4">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100066849856564"
+                target="_blank"
                 className="w-10 h-10 flex items-center justify-center bg-blue-600 text-white rounded"
               >
                 <FaFacebookF />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/peers-symantech"
+                target="_blank"
                 className="w-10 h-10 flex items-center justify-center bg-blue-700 text-white rounded"
               >
                 <FaLinkedinIn />
